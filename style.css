@@ -13,7 +13,7 @@ body{
 }
 .card{
 	width: 350px;
-	height: 330px;
+	height: 325px;
 	background: white;
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
 	border-radius: 10px;
@@ -49,5 +49,5 @@ input{
   	color: black;
 }
 p{
-	font-size: 18px;
+	font-size: 20px;
 }
