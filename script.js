@@ -35,7 +35,7 @@ function calcOfDays() {
       }
       else
       {
-        document.getElementById("result").innerHTML = Math.floor(days) + " days " + Math.floor(hours) +" hrs " + Math.floor(min) + " min " + Math.floor(sec) + " sec" ;
+        document.getElementById("result").innerHTML = Math.floor(days) + " days " + Math.floor(hours) +" hrs " + Math.floor(min) + " min " + Math.floor(sec) + " s remaining" ;
         setTimeout(calcOfDays,1000);
       }
 
