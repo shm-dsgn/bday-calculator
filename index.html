@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>B'Day Calculator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<script src="script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+
+	<div class="card">
+		<h1 class="header">B'Day Calculator</h1>
+		<div align="center" style="font-size: 14px;">Enter your D.O.B to calculate<br>the remaining days</div>
+		<br>
+		<div id="input" align="center" style="font-size: 14px;">
+			Date : <input type="date" id="date">
+		</div>
+		<br>
+		<div align="center">
+			<button onclick="calcOfDays()" class="button">Calculate</button>
+		</div>
+		<p id="result" align="center"></p>
+	</div>
+</body>
+</html>
